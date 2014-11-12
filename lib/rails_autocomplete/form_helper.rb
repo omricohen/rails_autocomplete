@@ -1,9 +1,3 @@
-require 'action_view/helpers/capture_helper'
-require 'action_view/helpers/sanitize_helper'
-require 'action_view/helpers/url_helper'
-require 'action_view/helpers/text_helper'
-require "action_view/helpers/tag_helper"
-require "action_view/helpers/form_tag_helper"
 
 class ActionView::Helpers::FormBuilder
   include ActionView::Helpers::FormTagHelper
